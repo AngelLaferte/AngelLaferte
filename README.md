@@ -1,74 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Autobiografía</title>
+    <title>Ángel Uriel Villamares López</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            line-height: 1.6;
-            background-color: #f8f9fa;
-            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
             padding: 20px;
+            text-align: center;
         }
         .container {
             max-width: 800px;
-            margin: 0 auto;
+            margin: 20px auto;
+            padding: 0 20px;
         }
-        h1 {
-            color: #007bff;
+        section {
+            margin-bottom: 40px;
         }
         h2 {
-            color: #6c757d;
+            color: #333;
         }
         p {
-            margin-bottom: 15px;
-        }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        ul li {
-            margin-bottom: 10px;
+            line-height: 1.6;
         }
     </style>
 </head>
 <body>
+    <header>
+        <h1>Ángel Uriel Villamares López</h1>
+        <p>Edad: 19 años</p>
+        <p>Pasatiempos: Cantar y Bailar</p>
+    </header>
     <div class="container">
-        <h1>Mi Autobiografía</h1>
-        <h2>¡Hola a todos!</h2>
-        <p>Soy [Angel Uriel Villamares Lopez], un joven con muchos sueños e ilusiones apasionado por la musica y el canto.</p>
-        
-        <h2>Experiencia</h2>
-        <ul>
-            <li><strong>[Año de inicio] - [Año de fin]:</strong> Descripción de tu experiencia laboral o educativa.</li>
-            <li><strong>[Año de inicio] - [Año de fin]:</strong> Descripción de otra experiencia relevante.</li>
-        </ul>
-        
-        <h2>Habilidades</h2>
-        <ul>
-            <li><strong>Lenguajes de Programación:</strong> HTML, CSS, JavaScript, Python, etc.</li>
-            <li><strong>Frameworks y Herramientas:</strong> React, Angular, Node.js, Git, etc.</li>
-            <li><strong>Otros:</strong> Diseño web, Gestión de Proyectos, etc.</li>
-        </ul>
-        
-        <h2>Proyectos Destacados</h2>
-        <ul>
-            <li><strong>[Nombre del Proyecto]:</strong> Breve descripción del proyecto y tu contribución.</li>
-            <li><strong>[Nombre del Proyecto]:</strong> Breve descripción del proyecto y tu contribución.</li>
-        </ul>
-        
-        <h2>Contacto</h2>
-        <p>Puedes encontrarme en:</p>
-        <ul>
-            <li><strong>LinkedIn:</strong> <a href="URL de tu perfil de LinkedIn">Mi perfil de LinkedIn</a></li>
-            <li><strong>Twitter:</strong> <a href="URL de tu perfil de Twitter">Mi perfil de Twitter</a></li>
-            <li><strong>Sitio web personal:</strong> <a href="URL de tu sitio web">Mi sitio web</a></li>
-        </ul>
-        
-        <p>¡Siempre estoy abierto a nuevas oportunidades y colaboraciones!</p>
+        <section id="biografia">
+            <h2>Biografía</h2>
+            <p>¡Hola! Soy Ángel Uriel Villamares López. Tengo 19 años y me apasiona la música y el baile. Desde muy joven descubrí mi amor por el canto y la danza, y he estado cultivando estas habilidades desde entonces. Mi objetivo es compartir mi pasión con el mundo y llevar alegría a través de mi arte.</p>
+        </section>
+        <section id="galeria">
+            <h2>Galeria</h2>
+            <img src=""imagen 1.jpeg"" alt="Imagen 1">
+            <img src=""imagen 2.jpeg"" alt="Imagen 2">
+        </section>
+        <section id="videos">
+            <h2>Videos</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/watch?v=MFprwBkif_M" frameborder="0" allowfullscreen></iframe>
+        </section>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Puedes contactarme a través de correo electrónico: <a href="avillamareslopes@gmail.com">tucorreo@example.com</a></p>
+        </section>
     </div>
 </body>
 </html>
-
