@@ -47,7 +47,7 @@
         <section id="galeria">
             <h2>Galería</h2>
             <img src="imagen1.jpeg" alt="Imagen 1">
-            <img src="imagen2.jpeg" alt="Imagen 2">
+            <img src="imagen%202.jpeg" alt="Imagen 2">
         </section>
         <section id="videos">
             <h2>Videos</h2>
